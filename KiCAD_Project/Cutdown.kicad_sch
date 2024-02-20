@@ -2840,11 +2840,9 @@
     )
   )
 
+
   (junction (at 90.17 132.715) (diameter 0) (color 0 0 0 0)
     (uuid 0453bffe-af81-4643-92b6-ab613f17a15a)
-  )
-  (junction (at 31.75 178.435) (diameter 0) (color 0 0 0 0)
-    (uuid 0fdd8dee-faa1-4cee-829b-2707cd8179e1)
   )
   (junction (at 44.45 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 1225a150-068a-4db8-9e98-3677a825792c)
@@ -4241,22 +4239,6 @@
     )
     (pin "1" (uuid e8ccb7ac-abb9-43cf-9165-d546ca412a24))
     (pin "2" (uuid 5b6b4a2d-2f26-405c-8608-c4adba1eaf47))
-  )
-
-  (symbol (lib_id "power:GND") (at 31.75 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 45d74b71-9c43-4bb5-a5e2-0f49b1947ce3)
-    (property "Reference" "#PWR06" (id 0) (at 31.75 184.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 31.75 182.245 0))
-    (property "Footprint" "" (id 2) (at 31.75 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 31.75 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8005c02d-70c1-41be-a880-f7a66a0a6363))
   )
 
   (symbol (lib_id "capacitors_0603:1-0000018") (at 123.19 31.115 270) (mirror x) (unit 1)
@@ -6139,9 +6121,6 @@
     )
     (path "/b6420b1b-9167-4965-96d8-dab88633039b"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/45d74b71-9c43-4bb5-a5e2-0f49b1947ce3"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/a03392c0-a24a-4885-83df-d0406e0b33fd"
       (reference "#PWR07") (unit 1) (value "+9V") (footprint "")
