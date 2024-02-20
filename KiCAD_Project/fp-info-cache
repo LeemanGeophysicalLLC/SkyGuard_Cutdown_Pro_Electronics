@@ -1,4 +1,4 @@
-21427151700153679
+21452473767688781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86813,6 +86813,13 @@ CAP TANT 10UF 10% 25V 1411
 0
 2
 2
+capacitors_1808
+1-0001259
+Cap 1808 footprint
+Cap 1808 footprint
+0
+2
+2
 capacitors_1812
 1-0000093
 22µF ±20% 25V Ceramic Capacitor X7R 1812 (4532 Metric)
@@ -88318,6 +88325,13 @@ connector wire 0.5sqmm strain-relief
 0
 1
 1
+np_connectors
+SolderWire_1x02_LargeHole
+Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+2
+2
 np_connectors
 SolderWire_1x02_Relief
 Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
@@ -90079,6 +90093,13 @@ resistors_2512
 1-0000122
 25 mOhms ±1% 3W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Metal Element
 RES 0.025 OHM 1% 3W 2512
+0
+2
+2
+resistors_2515
+1-0001470
+SMD Resistor 2515
+SMD Resistor 2515
 0
 2
 2

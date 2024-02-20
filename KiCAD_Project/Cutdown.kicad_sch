@@ -5011,7 +5011,7 @@
     (property "Value" "NP_Conn_01x02_Relief" (id 1) (at 27.305 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "np_connectors:SolderWire_1x02_Relief" (id 2) (at 32.385 27.305 0)
+    (property "Footprint" "np_connectors:SolderWire_1x02_LargeHole" (id 2) (at 32.385 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 32.385 27.305 0)
@@ -6861,7 +6861,7 @@
       (reference "J5") (unit 1) (value "1-0000526") (footprint "connectors:1-0000526")
     )
     (path "/5dc143fd-7e09-4881-972d-7cc8f60e1dd6"
-      (reference "J6") (unit 1) (value "NP_Conn_01x02_Relief") (footprint "np_connectors:SolderWire_1x02_Relief")
+      (reference "J6") (unit 1) (value "NP_Conn_01x02_Relief") (footprint "np_connectors:SolderWire_1x02_LargeHole")
     )
     (path "/e3c6be6e-bd33-4f26-afb6-ed8a282b6a60"
       (reference "J7") (unit 1) (value "1-0000783") (footprint "connectors:1-0000783")
