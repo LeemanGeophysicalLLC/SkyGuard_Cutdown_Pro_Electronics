@@ -1,4 +1,4 @@
-21454229765854469
+21455985770512898
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87184,6 +87184,13 @@ connectors
 0
 10
 10
+connectors
+1-0001506
+JST 4 pin
+JST 4 pin
+0
+6
+6
 crystals_resonators
 1-0000041
 16MHz ±30ppm Crystal 20pF 40 Ohms HC-49/US
