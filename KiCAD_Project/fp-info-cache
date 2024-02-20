@@ -1,4 +1,4 @@
-21452473767688781
+21454182224864420
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87751,6 +87751,13 @@ SMD-16
 0
 16
 16
+isolators
+1-0001505
+
+8-SOIC
+0
+8
+8
 lamps
 1-0000908
 TH Lamp
