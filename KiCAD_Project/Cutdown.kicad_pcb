@@ -8931,7 +8931,7 @@
 
   (footprint "pcb_graphics:PCB Logo Standard" locked (layer "F.Cu")
     (tedit 0) (tstamp 393191ae-256d-4628-a88b-61899e79c5c3)
-    (at 163.7284 106.7562)
+    (at 162.7632 106.7562)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -9192,7 +9192,7 @@
     (property "Sheetname" "")
     (path "/71f04efc-0cb7-4fc7-a36f-1ec81402a04a")
     (attr through_hole)
-    (fp_text reference "BT1" (at 4.5 -8.5) (layer "F.SilkS")
+    (fp_text reference "BT1" (at 3.7592 8.89) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d408aab2-aabe-46c5-b14d-3c96614066f3)
     )
@@ -11788,7 +11788,7 @@
   (gr_text "+9V" (at 91.4146 138.2352 90) (layer "F.SilkS") (tstamp 4237106a-b22f-40f1-8bdd-23edfebc44bb)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "CR1220" (at 162.7124 119.684799 90) (layer "F.SilkS") (tstamp 6a46e0f3-278a-4866-8842-0774945b71a9)
+  (gr_text "CR1220" (at 175.9712 110.7694) (layer "F.SilkS") (tstamp 6a46e0f3-278a-4866-8842-0774945b71a9)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "+" (at 154.3812 136.7536) (layer "F.SilkS") (tstamp 7389f8c2-006d-4b9f-baf2-1ad509d3200e)
