@@ -7,7 +7,7 @@
   (title_block
     (title "Cutdown")
     (date "2024-01-24")
-    (rev "1.0.0")
+    (rev "1.1.0")
     (company "Leeman Geophysical LLC")
     (comment 1 "(479) 373-3736")
     (comment 2 "Gentry, AR 72734")
@@ -2875,7 +2875,6 @@
     )
   )
 
-
   (junction (at 90.17 132.715) (diameter 0) (color 0 0 0 0)
     (uuid 0453bffe-af81-4643-92b6-ab613f17a15a)
   )
@@ -2996,7 +2995,7 @@
   (no_connect (at 233.045 54.61) (uuid 290c5cfa-cbc3-4fb8-be13-5137a0f3c1e8))
   (no_connect (at 233.045 57.15) (uuid 290c5cfa-cbc3-4fb8-be13-5137a0f3c1e9))
   (no_connect (at 182.245 95.25) (uuid 31207167-686c-4fef-9508-404e54cb0040))
-  (no_connect (at 182.245 97.79) (uuid 31207167-686c-4fef-9508-404e54cb0040))
+  (no_connect (at 182.245 97.79) (uuid 31207167-686c-4fef-9508-404e54cb0041))
   (no_connect (at 206.375 45.72) (uuid 37f7935b-7a51-4104-99a6-1b8bdc26ef2b))
   (no_connect (at 69.85 97.79) (uuid 386b5702-939d-480c-a2ad-04f2a4ca6d62))
   (no_connect (at 233.045 104.14) (uuid 53106206-7d51-4d6b-a200-f068a373a337))
@@ -3013,7 +3012,7 @@
   (no_connect (at 182.245 83.82) (uuid c13f801b-e795-4874-ac6d-7d753f300cf2))
   (no_connect (at 182.245 86.36) (uuid c13f801b-e795-4874-ac6d-7d753f300cf4))
   (no_connect (at 182.245 78.74) (uuid c2616f36-885f-4f09-a250-d0d8e5cff26b))
-  (no_connect (at 182.245 81.28) (uuid c2616f36-885f-4f09-a250-d0d8e5cff26b))
+  (no_connect (at 182.245 81.28) (uuid c2616f36-885f-4f09-a250-d0d8e5cff26c))
   (no_connect (at 182.245 104.14) (uuid d95257a4-daf5-4302-a6bd-2541523a54a4))
   (no_connect (at 233.045 99.06) (uuid f2873ee7-8b34-4686-803e-b9dc7afc53bd))
   (no_connect (at 233.045 93.98) (uuid f2873ee7-8b34-4686-803e-b9dc7afc53be))
@@ -5930,7 +5929,7 @@
     (property "Datasheet" "" (id 3) (at 165.1 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Internal Part Number" "3-0000198" (id 4) (at 165.1 168.91 0)
+    (property "Internal Part Number" "3-0000200" (id 4) (at 165.1 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Populated" "1" (id 5) (at 165.1 168.91 0)
