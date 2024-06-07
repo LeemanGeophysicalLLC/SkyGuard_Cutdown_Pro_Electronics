@@ -11517,8 +11517,7 @@
 	)
 	(symbol
 		(lib_id "connectors:1-0000526")
-		(at 24.13 173.99 0)
-		(mirror y)
+		(at 24.13 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11526,7 +11525,7 @@
 		(dnp no)
 		(uuid "533f3a28-a754-4437-8dcb-398347b6ce6a")
 		(property "Reference" "J3"
-			(at 24.13 179.07 0)
+			(at 24.13 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11533,7 @@
 			)
 		)
 		(property "Value" "1-0000526"
-			(at 24.13 179.07 0)
+			(at 24.13 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,7 +11542,7 @@
 			)
 		)
 		(property "Footprint" "connectors:1-0000526"
-			(at 24.13 173.99 0)
+			(at 24.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11552,7 +11551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 173.99 0)
+			(at 24.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +11560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 173.99 0)
+			(at 24.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +11569,7 @@
 			)
 		)
 		(property "Internal Part Number" "1-0000526"
-			(at 24.13 173.99 0)
+			(at 24.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +11578,7 @@
 			)
 		)
 		(property "Populated" "1"
-			(at 24.13 173.99 0)
+			(at 24.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,8 +14295,7 @@
 	)
 	(symbol
 		(lib_id "connectors:1-0000526")
-		(at 24.13 166.37 0)
-		(mirror y)
+		(at 24.13 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14305,7 +14303,7 @@
 		(dnp no)
 		(uuid "aced705e-f98e-4def-94d4-27f79508602b")
 		(property "Reference" "J2"
-			(at 24.13 171.45 0)
+			(at 24.13 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14311,7 @@
 			)
 		)
 		(property "Value" "1-0000526"
-			(at 24.13 171.45 0)
+			(at 24.13 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +14320,7 @@
 			)
 		)
 		(property "Footprint" "connectors:1-0000526"
-			(at 24.13 166.37 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 166.37 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 166.37 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +14347,7 @@
 			)
 		)
 		(property "Internal Part Number" "1-0000526"
-			(at 24.13 166.37 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14356,7 @@
 			)
 		)
 		(property "Populated" "1"
-			(at 24.13 166.37 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
