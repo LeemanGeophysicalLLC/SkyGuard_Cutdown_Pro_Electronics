@@ -5581,7 +5581,7 @@
 				)
 			)
 		)
-		(symbol "np_connectors:NP_Conn_01x03_Relief"
+		(symbol "np_connectors:NP_Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -5595,7 +5595,7 @@
 					)
 				)
 			)
-			(property "Value" "NP_Conn_01x03_Relief"
+			(property "Value" "NP_Conn_01x03"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -5604,7 +5604,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "np_connectors:SolderWire_1x03_Relief"
+			(property "Footprint" "np_connectors:PinHeader_1x03_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5649,7 +5649,7 @@
 					(hide yes)
 				)
 			)
-			(property "PValue" "NP_Conn_01x03_Relief"
+			(property "PValue" "NP_Conn_01x03"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5666,7 +5666,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NP_Conn_01x03_Relief_0_1"
+			(symbol "NP_Conn_01x03_0_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -5679,7 +5679,7 @@
 					)
 				)
 			)
-			(symbol "NP_Conn_01x03_Relief_1_1"
+			(symbol "NP_Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -9419,104 +9419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "np_connectors:NP_Conn_01x03_Relief")
-		(at 200.66 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12655989-2fbf-4b76-8785-3e6342ae5137")
-		(property "Reference" "J7"
-			(at 200.66 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NP_Conn_01x03_Relief"
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "np_connectors:SolderWire_1x03_Relief"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "0-0000000"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 200.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP_Conn_01x03_Relief"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5dee00e7-2072-4f3a-ac23-939dc0d667f5")
-		)
-		(pin "1"
-			(uuid "82fd40f9-9b30-4264-b0e1-720552c18fba")
-		)
-		(pin "2"
-			(uuid "0954f465-6add-479f-8425-37914059b0ac")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "leds_other:1-0000399")
 		(at 127 40.64 0)
 		(unit 1)
@@ -11736,6 +11638,105 @@
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "np_connectors:NP_Conn_01x03")
+		(at 200.66 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c9252d-4308-4bd6-a7b4-0f37cf1b844f")
+		(property "Reference" "J7"
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NP_Conn_01x03"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Internal Part Number" "0-0000000"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Populated" "0"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PValue" "NP_Conn_01x03"
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f73bd203-3888-41ee-a1ff-c5c4cd6676cf")
+		)
+		(pin "1"
+			(uuid "b7c22cc3-87d9-489e-8e62-c9a9517b3afb")
+		)
+		(pin "3"
+			(uuid "b07047f8-4332-4ad6-a0c3-764afa5e0d93")
+		)
+		(instances
+			(project "Cutdown"
+				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
+					(reference "J7")
 					(unit 1)
 				)
 			)
