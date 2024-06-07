@@ -7669,6 +7669,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a5fc76-9f89-4d2a-99d4-24a6ece3a597")
+	)
+	(wire
+		(pts
 			(xy 72.39 168.91) (xy 87.63 168.91)
 		)
 		(stroke
@@ -8149,6 +8159,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c016c13e-e1ba-46b6-8538-5405f9633b74")
+	)
+	(wire
+		(pts
 			(xy 69.85 176.53) (xy 71.12 176.53)
 		)
 		(stroke
@@ -8615,7 +8635,7 @@
 	)
 	(global_label "Servo"
 		(shape passive)
-		(at 205.74 139.7 0)
+		(at 205.74 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8625,7 +8645,7 @@
 		)
 		(uuid "2877ccae-a8da-4846-a4ae-c0866b398937")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8148 139.7 0)
+			(at 212.8148 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12897,7 +12917,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 205.74 137.16 0)
+		(at 214.63 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12905,7 +12925,7 @@
 		(dnp no)
 		(uuid "75d64dc0-c817-409e-b9c0-c325240cacf6")
 		(property "Reference" "#PWR09"
-			(at 205.74 140.97 0)
+			(at 214.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,7 +12934,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 205.74 133.604 0)
+			(at 214.63 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 137.16 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +12951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 137.16 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 205.74 137.16 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,7 +13748,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 205.74 142.24 0)
+		(at 214.63 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13736,7 +13756,7 @@
 		(dnp no)
 		(uuid "934cf72f-d45e-4127-a603-3816f773ec7b")
 		(property "Reference" "#PWR06"
-			(at 205.74 148.59 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,7 +13765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 146.05 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13753,7 +13773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 142.24 0)
+			(at 214.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,7 +13782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 142.24 0)
+			(at 214.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,7 +13791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 142.24 0)
+			(at 214.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
