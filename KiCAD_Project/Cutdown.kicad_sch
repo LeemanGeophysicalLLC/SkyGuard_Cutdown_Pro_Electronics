@@ -16261,7 +16261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors_0603:1-0000010")
+		(lib_id "resistors_0603:1-0000679")
 		(at 41.91 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16278,7 +16278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1-0000010"
+		(property "Value" "1-0000679"
 			(at 41.91 168.91 90)
 			(effects
 				(font
@@ -16287,7 +16287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "resistors_0603:1-0000010"
+		(property "Footprint" "resistors_0603:1-0000679"
 			(at 41.91 170.688 90)
 			(effects
 				(font
@@ -16305,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 470 1% 0603"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Internal Part Number" "1-0000010"
+		(property "Internal Part Number" "1-0000679"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -16332,13 +16332,12 @@
 				(hide yes)
 			)
 		)
-		(property "PValue" "10k"
-			(at 43.815 168.91 90)
+		(property "PValue" "470"
+			(at 41.91 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -16357,7 +16356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors_0603:1-0000010")
+		(lib_id "resistors_0603:1-0000679")
 		(at 41.91 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16374,7 +16373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1-0000010"
+		(property "Value" "1-0000679"
 			(at 41.91 173.99 90)
 			(effects
 				(font
@@ -16383,7 +16382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "resistors_0603:1-0000010"
+		(property "Footprint" "resistors_0603:1-0000679"
 			(at 41.91 175.768 90)
 			(effects
 				(font
@@ -16401,7 +16400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 470 1% 0603"
 			(at 41.91 173.99 0)
 			(effects
 				(font
@@ -16410,7 +16409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Internal Part Number" "1-0000010"
+		(property "Internal Part Number" "1-0000679"
 			(at 41.91 173.99 0)
 			(effects
 				(font
@@ -16428,13 +16427,12 @@
 				(hide yes)
 			)
 		)
-		(property "PValue" "10k"
-			(at 43.815 173.99 90)
+		(property "PValue" "470"
+			(at 41.91 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(pin "1"

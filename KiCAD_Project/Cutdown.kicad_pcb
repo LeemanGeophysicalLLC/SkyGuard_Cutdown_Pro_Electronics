@@ -7756,7 +7756,7 @@
 		(at 100 77.5 90)
 		(tags "8-SOIC")
 		(property "Reference" "U2"
-			(at 0 3.5 270)
+			(at 0 3.5 -90)
 			(layer "F.SilkS")
 			(uuid "e576c76a-6f2b-4b24-acf9-924b50c3bd72")
 			(effects
@@ -7767,7 +7767,7 @@
 			)
 		)
 		(property "Value" "1-0001505"
-			(at 0 3.4 270)
+			(at 0 3.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ffc2423-95cd-459b-b8f5-4bb358656e75")
@@ -8292,16 +8292,16 @@
 			(uuid "7f0a2f75-f44c-49aa-ac3a-5930917055f8")
 		)
 	)
-	(footprint "resistors_0603:1-0000010"
+	(footprint "resistors_0603:1-0000679"
 		(layer "F.Cu")
 		(uuid "9855bf7e-7e83-41ba-8546-3005aad0bc83")
 		(at 98.476 82.072 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -0.024 -1.928 180)
+			(at 0 -1.43 180)
 			(layer "F.SilkS")
-			(uuid "53a17635-4dd6-4e24-be2f-a113b76bc070")
+			(uuid "fcd56aa1-2c42-4e2b-b598-7f65a0340baa")
 			(effects
 				(font
 					(size 1 1)
@@ -8309,10 +8309,10 @@
 				)
 			)
 		)
-		(property "Value" "1-0000010"
+		(property "Value" "1-0000679"
 			(at 0 1.43 180)
 			(layer "F.Fab")
-			(uuid "a9b71acf-db45-4615-8f08-68b2435f198e")
+			(uuid "b39ff839-b918-4cc0-b9b2-a40ad511f666")
 			(effects
 				(font
 					(size 1 1)
@@ -8320,12 +8320,12 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors_0603:1-0000010"
+		(property "Footprint" "resistors_0603:1-0000679"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1409149c-0674-4eaa-8beb-092668e7fa08")
+			(uuid "70b87259-496a-4028-822f-996d86e6864d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,26 +8337,26 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb0d1c09-0d29-434e-a6c4-a3b07e090a20")
+			(uuid "037efd34-6807-48b1-9240-90bafebd5130")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 470 1% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bd6bd91-2ad2-4fbf-ae1a-f5a521a8e9a7")
+			(uuid "64e7587f-ad54-455e-b24b-0e78a6a2a694")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Internal Part Number" "1-0000010"
+		(property "Internal Part Number" "1-0000679"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8382,7 +8382,7 @@
 				)
 			)
 		)
-		(property "PValue" "10k"
+		(property "PValue" "470"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8407,7 +8407,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e59840e7-cacd-4c64-b467-aed356559360")
+			(uuid "d90e3a41-384a-47c8-80d8-807169c86e7e")
 		)
 		(fp_line
 			(start -0.162779 -0.51)
@@ -8417,7 +8417,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8966529d-833b-4801-ad43-f38e61399800")
+			(uuid "b9c04cc2-195a-4451-b5be-d009267ac670")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -8427,7 +8427,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dedbfde7-0fb6-4cac-9b04-8edf84097a0d")
+			(uuid "fd5fd3bf-245d-4879-8228-49ab42bd2086")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -8437,7 +8437,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "48e2ba32-2f77-4057-afa3-5109db7a046a")
+			(uuid "3bc0cd7c-7d9d-4b29-a1d1-75d08467d993")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -8447,7 +8447,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dd2e72c0-b58b-44de-ba4b-fef4bf134988")
+			(uuid "6517b9ad-dd5b-47a8-be59-16369f70170c")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -8457,7 +8457,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "375708d0-c8ef-42b6-9fd5-5f0452418c73")
+			(uuid "8a31f7ca-c20d-4fe2-9934-443361499d9b")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -8467,7 +8467,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cfaa34b5-8c61-4f69-96ee-1ac767f344e0")
+			(uuid "35fec390-9b0a-43f3-b0ec-2bad3aa5df41")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -8477,7 +8477,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6e610055-7662-42ac-ae27-c71f8921cd22")
+			(uuid "22bff4ec-9856-46c9-8c09-f81eec451deb")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -8487,7 +8487,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7eb789e9-0140-4c02-bbd4-bd185e37e391")
+			(uuid "c4bcabe1-b1ca-444a-9df1-54292572e9bb")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -8497,12 +8497,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3bad031b-9e7f-47cf-8aef-0258e7a43880")
+			(uuid "78153237-7411-4b11-8d0a-4aaa6a662a42")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "dae56ecb-5c88-4625-8cb6-97c55dc9178f")
+			(uuid "25c5daa2-6b45-4aa4-b973-83994271028e")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -8517,7 +8517,7 @@
 			(roundrect_rratio 0.25)
 			(net 13 "Net-(J2-Pin_2)")
 			(pintype "passive")
-			(uuid "1ca55618-70cc-4ce6-96f6-60569ea27b88")
+			(uuid "8ed8f5b3-1704-4f3b-bed8-65532be447cc")
 		)
 		(pad "2" smd roundrect
 			(at 0.7875 0 180)
@@ -8526,9 +8526,9 @@
 			(roundrect_rratio 0.25)
 			(net 17 "Net-(U2-A1)")
 			(pintype "passive")
-			(uuid "24c7781e-4c9c-4b2b-b1a0-542e9e5fcbb9")
+			(uuid "5528dad5-efdd-4eb8-8363-1ee6752eb938")
 		)
-		(model "${LGEO_3D_DIR}/resistors_0603/1-0000010.wrl"
+		(model "${LGEO_3D_DIR}/resistors_0603/1-0000679.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16647,16 +16647,16 @@
 			)
 		)
 	)
-	(footprint "resistors_0603:1-0000010"
+	(footprint "resistors_0603:1-0000679"
 		(layer "F.Cu")
 		(uuid "f77828a2-6bd6-4ef7-9d72-a05f0ce58bbb")
 		(at 101.524 82.072 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0.024 -1.928 180)
+			(at 0 -1.43 180)
 			(layer "F.SilkS")
-			(uuid "57fa2f2e-c254-44bb-9658-6581db4cf024")
+			(uuid "aeb549ac-8cf9-444f-9f84-d695c14e3c5d")
 			(effects
 				(font
 					(size 1 1)
@@ -16664,10 +16664,10 @@
 				)
 			)
 		)
-		(property "Value" "1-0000010"
+		(property "Value" "1-0000679"
 			(at 0 1.43 180)
 			(layer "F.Fab")
-			(uuid "6651f4e1-3923-4760-ad3c-0879f19dca01")
+			(uuid "2f499a5b-7fc2-42a0-8a22-0d87b400d0de")
 			(effects
 				(font
 					(size 1 1)
@@ -16675,12 +16675,12 @@
 				)
 			)
 		)
-		(property "Footprint" "resistors_0603:1-0000010"
+		(property "Footprint" "resistors_0603:1-0000679"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0764f5cb-4c8e-4184-ad2f-379f7b4a5718")
+			(uuid "d66f4104-99ea-45c8-92ad-85ef440b23c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,26 +16692,26 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e91e85cd-62d5-4311-9971-84fc6bdb7e74")
+			(uuid "1452182d-edc5-4066-87db-b97037d73ac9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 470 1% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "325ea03b-d736-499b-a1e7-a298030e14c1")
+			(uuid "bec7bfae-05f2-4b16-ad55-5c979aa05b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Internal Part Number" "1-0000010"
+		(property "Internal Part Number" "1-0000679"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16737,7 +16737,7 @@
 				)
 			)
 		)
-		(property "PValue" "10k"
+		(property "PValue" "470"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16762,7 +16762,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "580a585a-06f6-4e0e-90c1-6aee072d682b")
+			(uuid "07e5af74-0295-4754-bd5f-cf85407f1f36")
 		)
 		(fp_line
 			(start -0.162779 -0.51)
@@ -16772,7 +16772,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ec06c25b-4f34-4cdf-9d8f-3f5eea5a411a")
+			(uuid "872ea758-d6ef-4016-937e-065bb55992bf")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -16782,7 +16782,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e8ae18a1-4502-41cf-a1ac-3a0d16ecb96d")
+			(uuid "853259d3-db06-44fd-9462-d33e67476494")
 		)
 		(fp_line
 			(start 1.48 -0.73)
@@ -16792,7 +16792,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3c712234-606b-4545-ac48-e6629e154979")
+			(uuid "c0639d90-d448-4268-9651-857c751b81b7")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -16802,7 +16802,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ec5d8ff-5ef4-4012-8a2b-3a46a76c6050")
+			(uuid "a3a2eb70-8ace-467b-ab8f-ac9ca618f673")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -16812,7 +16812,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "71f4547e-e2ab-40a7-8a57-44f9fff2007e")
+			(uuid "411becc3-a454-468c-b4ba-28d7057d5e75")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -16822,7 +16822,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1304ecc1-6ee4-4ba0-93f7-506c814426a0")
+			(uuid "42e87827-dc8f-4483-a3e2-2aebe9173230")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -16832,7 +16832,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c21966cd-2c9a-4e47-ad21-9ac582745a00")
+			(uuid "a2a9bfb7-78a4-44bf-8e60-1a0c7cb63922")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -16842,7 +16842,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "405f8707-9e5d-46e6-a39c-5f2077fd3f13")
+			(uuid "0e3b2748-02a7-4b1e-88ae-6d59139e66e0")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -16852,12 +16852,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5e915a7c-0cd9-40d7-a387-0f0dc1428a07")
+			(uuid "f3784e92-4402-4ffe-bcd4-89190a25055d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "3ff59723-2cfc-4dc6-ab5a-f7e0d882c9b6")
+			(uuid "2c8dca95-47d6-4a06-a53e-8c7eda1d0789")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -16872,7 +16872,7 @@
 			(roundrect_rratio 0.25)
 			(net 14 "Net-(J3-Pin_2)")
 			(pintype "passive")
-			(uuid "ac0f9acf-0960-4c36-8024-08ace3e5c7b2")
+			(uuid "2d563376-484c-4453-8c30-e3bf33af5966")
 		)
 		(pad "2" smd roundrect
 			(at 0.7875 0 180)
@@ -16881,9 +16881,9 @@
 			(roundrect_rratio 0.25)
 			(net 18 "Net-(U2-A2)")
 			(pintype "passive")
-			(uuid "6328963a-8343-4efc-9bda-ae25490e876d")
+			(uuid "1f95a5be-9cdf-453e-b62e-0ef463868a53")
 		)
-		(model "${LGEO_3D_DIR}/resistors_0603/1-0000010.wrl"
+		(model "${LGEO_3D_DIR}/resistors_0603/1-0000679.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
