@@ -20881,7 +20881,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Leeman Geophysical LLC\nSkyGuard Cutdown Pro\nRev 2.0"
+	(gr_text "Leeman Geophysical LLC\nSkyGuard Cutdown Pro\nRev 2.1"
 		(at 63.756798 47.023368 270)
 		(layer "F.SilkS")
 		(uuid "e9865514-b2e9-4af2-8a71-4e6f68acfea0")
