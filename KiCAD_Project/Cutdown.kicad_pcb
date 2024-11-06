@@ -9,8 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SkyGuard Cutdown Pro")
-		(date "2024-06-07")
-		(rev "2.0.0")
+		(date "2024-11-06")
+		(rev "2.1.0")
 		(company "Leeman Geophysical LLC")
 		(comment 1 "(479) 373-3736")
 		(comment 2 "Gentry, AR 72734")
@@ -713,7 +713,7 @@
 		(at 81.407 123.444)
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 2.413 360)
+			(at 0 2.413 0)
 			(layer "F.SilkS")
 			(uuid "d25d784d-0bb6-43a2-a331-231975fbb39d")
 			(effects
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Value" "1-0000340"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "cbcec67d-33d5-404f-9436-8138523f1c04")
 			(effects
@@ -944,7 +944,7 @@
 			(uuid "5f40e1e2-7056-48b5-99c3-87b51540e79d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1512a9e7-1c60-4585-83a6-ee0ce58801f2")
 			(effects
@@ -6233,7 +6233,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "bf7bdd7d-a56d-413a-9465-f183d79d7571")
 			(effects
@@ -6244,7 +6244,7 @@
 			)
 		)
 		(property "Value" "1-0000013"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "02d7734b-789e-495f-8b4d-bac2e69a42a1")
 			(effects
@@ -6434,7 +6434,7 @@
 			(uuid "5cdc739c-761f-49b7-ad0f-8df9c0667058")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3f264e92-bfe0-4d7d-b92b-6a10a6e543e5")
 			(effects
@@ -7039,7 +7039,7 @@
 		(descr "SMD JST")
 		(tags "SMD JST")
 		(property "Reference" "J8"
-			(at -0.69228 -3.184 270)
+			(at -0.69228 -3.184 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e4d5473c-3d52-47d4-a037-906a487b72a6")
@@ -7051,7 +7051,7 @@
 			)
 		)
 		(property "Value" "1-0000526"
-			(at 0 3.048 270)
+			(at 0 3.048 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19b66824-dba5-4b5f-becd-be41a4b59f24")
@@ -9437,7 +9437,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "cd10dd59-18be-4048-9625-3b0b74be4e16")
 			(effects
@@ -9448,7 +9448,7 @@
 			)
 		)
 		(property "Value" "1-0000013"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "6854c5a4-800a-46fa-a86a-512cfcd2b2aa")
 			(effects
@@ -9638,7 +9638,7 @@
 			(uuid "5000cc52-6d93-4566-854b-d599c339dc22")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b4a3eeab-b2d4-488e-93c1-9657226e1850")
 			(effects
@@ -10245,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Internal Part Number" "3-0000214"
+		(property "Internal Part Number" "3-0000232"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17472,7 +17472,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 1.397 270)
+			(at 0 1.397 -90)
 			(layer "F.SilkS")
 			(uuid "74a28248-bb4c-4d09-bd25-ace55d207240")
 			(effects
@@ -17483,7 +17483,7 @@
 			)
 		)
 		(property "Value" "1-0000013"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "d550efa8-3df0-49af-9f2e-b8dcaa6503ef")
 			(effects
@@ -17673,7 +17673,7 @@
 			(uuid "4dd26ef7-cc2d-4632-adfc-738ad8b9707b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "80cf951d-6359-45fd-aeed-90b4a4d5ff7e")
 			(effects
@@ -18693,7 +18693,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 3.429 -0.031 270)
+			(at 3.429 -0.031 -90)
 			(layer "B.SilkS")
 			(uuid "6365955b-7daa-4d12-a785-f47dfa166050")
 			(effects
@@ -18705,7 +18705,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 0 -1.9 270)
+			(at 0 -1.9 -90)
 			(layer "B.Fab")
 			(uuid "94e9cef1-ce99-45bb-a6e7-761572cd6f2d")
 			(effects
@@ -19004,7 +19004,7 @@
 		(descr "10 Position 1.25MM")
 		(tags "10 Position 1.25MM")
 		(property "Reference" "J9"
-			(at -5.715 2.921 360)
+			(at -5.715 2.921 0)
 			(layer "B.SilkS")
 			(uuid "f61419fb-411e-49d3-8b4c-4ab6847c66bc")
 			(effects
@@ -19016,7 +19016,7 @@
 			)
 		)
 		(property "Value" "1-0000790"
-			(at 0.4 -4.615 360)
+			(at 0.4 -4.615 0)
 			(layer "B.Fab")
 			(uuid "9fa9c3b0-e3e5-4d21-b7ee-3c8414f52744")
 			(effects
@@ -19568,7 +19568,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 3.429 0 270)
+			(at 3.429 0 -90)
 			(layer "B.SilkS")
 			(uuid "c593274a-0880-4d72-8851-9a7168b0edfd")
 			(effects
@@ -19580,7 +19580,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 0 -1.9 270)
+			(at 0 -1.9 -90)
 			(layer "B.Fab")
 			(uuid "bb7cb291-0b68-4cb6-8638-320b1ca5b9a6")
 			(effects
@@ -19879,7 +19879,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J7"
-			(at 4.385 2.27 360)
+			(at 4.385 2.27 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "7957ee7e-921a-4553-8ae4-4bea8843701b")
@@ -19892,7 +19892,7 @@
 			)
 		)
 		(property "Value" "NP_Conn_01x03"
-			(at 4.385 -7.35 360)
+			(at 4.385 -7.35 0)
 			(layer "B.Fab")
 			(uuid "f5c00c3a-f521-4558-bf1f-77767f7326d6")
 			(effects
@@ -20715,8 +20715,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "3-0000214"
-		(at 77.978 32.131 -0)
+	(gr_text "3-0000232\n"
+		(at 77.978 32.131 0)
 		(layer "B.SilkS")
 		(uuid "220ea6e8-4ca6-4ee7-8bec-c8d03213e700")
 		(effects

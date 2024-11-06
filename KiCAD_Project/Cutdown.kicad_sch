@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SkyGuard Cutdown Pro")
-		(date "2024-06-07")
-		(rev "2.0.0")
+		(date "2024-11-06")
+		(rev "2.1.0")
 		(company "Leeman Geophysical LLC")
 		(comment 1 "(479) 373-3736")
 		(comment 2 "Gentry, AR 72734")
@@ -19444,7 +19444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Internal Part Number" "3-0000214"
+		(property "Internal Part Number" "3-0000232"
 			(at 165.1 168.91 0)
 			(effects
 				(font
