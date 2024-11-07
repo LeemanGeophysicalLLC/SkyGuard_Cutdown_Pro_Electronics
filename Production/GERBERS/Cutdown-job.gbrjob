@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.1-rc1"
     },
-    "CreationDate": "2024-06-07T11:34:21-05:00"
+    "CreationDate": "2024-11-07T09:08:02-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Cutdown",
       "GUID": "43757464-6f77-46e2-9e6b-696361645f70",
-      "Revision": "2.0.0"
+      "Revision": "2.1.0"
     },
     "Size": {
       "X": 43.23,
