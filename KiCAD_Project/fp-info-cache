@@ -1,4 +1,4 @@
-24272675672913540
+24274406662383189
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95927,6 +95927,13 @@ dc_dc_converters
 0
 4
 4
+dc_dc_converters
+1-0001649
+3-SIP
+3-SIP
+0
+3
+3
 diodes
 1-0000003
 SOD-323

@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(symbol "dc_dc_converters:1-0001467"
+		(symbol "dc_dc_converters:1-0001649"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3148,7 +3148,7 @@
 					)
 				)
 			)
-			(property "Value" "1-0001467"
+			(property "Value" "1-0001649"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3157,7 +3157,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "dc_dc_converters:1-0001467"
+			(property "Footprint" "dc_dc_converters:1-0001649"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3175,7 +3175,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Linear Regulator Replacement DC DC Converter 1 Output 5V 500mA 6.5V - 36V Input"
+			(property "Description" "Linear Regulator Replacement DC DC Converter 1 Output 5V 500mA 7V - 28V Input"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3184,7 +3184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Internal Part Number" "1-0001467"
+			(property "Internal Part Number" "1-0001649"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3202,7 +3202,7 @@
 					(hide yes)
 				)
 			)
-			(property "PValue" "VR05S05"
+			(property "PValue" "TR05S05"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3210,7 +3210,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "5V DC DC CONVERTER 5V"
+			(property "ki_keywords" "DC DC CONVERTER 5V 3W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3219,7 +3219,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1-0001467_0_1"
+			(symbol "1-0001649_0_1"
 				(rectangle
 					(start -6.35 2.54)
 					(end 6.35 -7.62)
@@ -3232,7 +3232,7 @@
 					)
 				)
 			)
-			(symbol "1-0001467_1_1"
+			(symbol "1-0001649_1_1"
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 2.54)
@@ -15178,7 +15178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "dc_dc_converters:1-0001467")
+		(lib_id "dc_dc_converters:1-0001649")
 		(at 35.56 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15194,7 +15194,7 @@
 				)
 			)
 		)
-		(property "Value" "1-0001467"
+		(property "Value" "1-0001649"
 			(at 35.56 58.42 0)
 			(effects
 				(font
@@ -15203,7 +15203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dc_dc_converters:1-0001467"
+		(property "Footprint" "dc_dc_converters:1-0001649"
 			(at 35.56 58.42 0)
 			(effects
 				(font
@@ -15221,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Regulator Replacement DC DC Converter 1 Output 5V 500mA 7V - 28V Input"
 			(at 35.56 58.42 0)
 			(effects
 				(font
@@ -15230,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Internal Part Number" "1-0001467"
+		(property "Internal Part Number" "1-0001649"
 			(at 35.56 58.42 0)
 			(effects
 				(font
@@ -15248,8 +15248,8 @@
 				(hide yes)
 			)
 		)
-		(property "PValue" "VR05S05"
-			(at 40.005 54.61 0)
+		(property "PValue" "TR05S05"
+			(at 37.846 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
