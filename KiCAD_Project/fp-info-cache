@@ -1,4 +1,4 @@
-24220352729582173
+24274406662383189
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94619,6 +94619,13 @@ SOIC 1.27
 8
 8
 amplifiers
+1-0000529
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+amplifiers
 1-0000724
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -95375,6 +95382,13 @@ connectors
 96
 96
 connectors
+1-0000403
+11 Position Terminal Block | Pitch 0.138" (3.50mm)
+11 Position Terminal Block | Pitch 0.138" (3.50mm)
+0
+11
+11
+connectors
 1-0000406
 Through hole pin header
 pin header
@@ -95430,6 +95444,13 @@ Through Hole 90°, Right Angle Header, Male Pins, Shrouded (4 Side)
 0
 2
 2
+connectors
+1-0000790
+10 Position 1.25MM
+10 Position 1.25MM
+0
+12
+10
 connectors
 1-0000810
 SMD 6 pos Terminal Block
@@ -95626,6 +95647,13 @@ connectors
 0
 0
 0
+connectors
+1-0001641
+0.1"(2.54mm) Pitch 3 position Terminal Block OSTVN03A150 
+0.1"(2.54mm) Pitch 3 position Terminal Block OSTVN03A150 
+0
+3
+3
 crystals_resonators
 1-0000041
 16MHz ±30ppm Crystal 20pF 40 Ohms HC-49/US
@@ -95689,6 +95717,13 @@ Custom footprint
 0
 4
 4
+crystals_resonators
+1-0001620
+0.449" L x 0.185" W (11.40mm x 4.70mm)
+0.449" L x 0.185" W (11.40mm x 4.70mm)
+0
+2
+2
 dacs
 1-0000948
 TSSOP, 16 Pin
@@ -95707,6 +95742,13 @@ dacs
 1-0001144
 10-MSOP
 10-MSOP
+0
+10
+10
+dacs
+1-0001606
+10-TFSOP, 10-MSOP (0.118", 3.00mm Width)
+10-TFSOP, 10-MSOP (0.118", 3.00mm Width)
 0
 10
 10
@@ -95752,6 +95794,13 @@ TH 3-SIP Module
 0
 3
 3
+dc_dc_converters
+1-0000716
+6-SIP Module, 4 Leads 0.67" L x 0.33" W x 0.47" H (17.0mm x 8.5mm x 12.0mm)
+6-SIP Module, 4 Leads 0.67" L x 0.33" W x 0.47" H (17.0mm x 8.5mm x 12.0mm)
+0
+10
+10
 dc_dc_converters
 1-0000727
 DC DC CONVERTER 3.3V 1.7W
@@ -95878,6 +95927,13 @@ dc_dc_converters
 0
 4
 4
+dc_dc_converters
+1-0001649
+3-SIP
+3-SIP
+0
+3
+3
 diodes
 1-0000003
 SOD-323
@@ -96215,6 +96271,13 @@ FIXED IND 53UH 3A 80 MOHM SMD
 2
 2
 inductors
+1-0000720
+0.228" L x 0.205" W (5.80mm x 5.20mm)
+0.228" L x 0.205" W (5.80mm x 5.20mm)
+0
+2
+2
+inductors
 1-0000931
 Unsheilded Custom Inductor Footprint
 Unsheilded Custom Inductor Footprint
@@ -96222,9 +96285,9 @@ Unsheilded Custom Inductor Footprint
 2
 2
 inductors
-1-0000961
-Custom Inductor SMD Footprint 0.228" L x 0.228" W (5.80mm x 5.80mm)
-Custom Inductor SMD Footprint 0.228" L x 0.228" W (5.80mm x 5.80mm)
+1-0001608
+Custom Inductor SMD Footprint 0.189" L x 0.169" W (4.80mm x 4.30mm)
+Custom Inductor SMD Footprint 0.189" L x 0.169" W (4.80mm x 4.30mm)
 0
 2
 2
@@ -96289,7 +96352,7 @@ lamps
 TH Lamp
 TH Lamp
 0
-2
+4
 2
 leds_0805
 1-0000598
@@ -96466,6 +96529,20 @@ LED diameter 5.0mm 2 pins
 0
 2
 2
+leds_th
+1-0001602
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+leds_th
+1-0001603
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
 level_shifting
 1-0000052
 Humidity Temperature Sensor 0 ~ 100% RH I²C, SPI ±3% 1s Surface Mount
@@ -96515,6 +96592,13 @@ SO SO
 0
 8
 8
+logic_gates
+1-0000259
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
 logic_gates
 1-0000336
 SOIC, 14 Pin
@@ -96578,6 +96662,13 @@ MountingHole_imperial4
 0
 0
 0
+mechanical
+MountingHole_imperial4_GND
+
+
+0
+1
+1
 mechanical
 MountingHole_imperial6
 Mounting Hole 3.2mm, no annular, M3, ISO7380
@@ -96838,6 +96929,13 @@ np_connectors
 4
 4
 np_connectors
+NP_Conn_ProtoPad
+01x01 Blank TH Connection
+01x01 Blank TH Connection
+0
+1
+1
+np_connectors
 PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
@@ -96978,6 +97076,13 @@ SolderWire_1x06_Relief
 6
 6
 np_connectors
+SolderWire_1x07_Compressed
+
+
+0
+7
+7
+np_connectors
 SolderWire_1x07_Relief
 
 
@@ -97068,6 +97173,27 @@ others
 0
 10
 10
+others
+1-0001615
+Custom buzzer footprint
+Custom buzzer footprint
+0
+2
+2
+others
+1-0001616
+18-SOIC (0.295", 7.50mm Width)
+18-SOIC (0.295", 7.50mm Width)
+0
+18
+18
+others
+1-0001621
+
+
+0
+2
+2
 pcb_graphics
 5mm qwiic logo
 
@@ -97502,6 +97628,13 @@ relays
 0
 4
 4
+relays
+1-0001607
+Custom TH Relay
+Custom TH Relay
+0
+6
+5
 resistors
 1-0000170
 Resistor, Axial_DIN0516 series, Axial, Horizontal, pin pitch=30.48mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
@@ -98329,6 +98462,13 @@ resistor
 2
 2
 resistors_0603
+1-0001050
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
 1-0001078
 Resistor SMD 0603 
 resistor
@@ -98469,6 +98609,13 @@ resistor
 2
 2
 resistors_0603
+1-0001338
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
 1-0001523
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
 resistor
@@ -98519,6 +98666,34 @@ resistor
 2
 resistors_0603
 1-0001554
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
+1-0001612
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
+1-0001613
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
+1-0001614
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
+resistors_0603
+1-0001622
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
 resistor
 0
@@ -99168,6 +99343,20 @@ sensors
 0
 13
 9
+sensors
+1-0001597
+12-SMD Module
+12-SMD Module
+0
+12
+12
+sensors
+1-0001643
+10-WFLGA
+10-WFLGA
+0
+10
+10
 switch_mux_demux
 1-0000059
 1 Circuit IC Switch 2:1 2.4Ohm 8-MSOP
@@ -99239,6 +99428,13 @@ MSOP SO
 13
 9
 switches
+1-0000663
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+switches
 1-0000786
 SPST TH Switch
 SPST TH Switch
@@ -99277,6 +99473,27 @@ switches
 1-0001472
 DIP SPST x4 Custom Footprint
 DIP SPST x4 Custom Footprint
+0
+8
+8
+switches
+1-0001599
+SWITCH TOGGLE SPDT 5A 120V
+SWITCH TOGGLE SPDT 5A 120V
+0
+3
+3
+switches
+1-0001601
+SWITCH PUSH SPST-NO 3A 125V
+SWITCH PUSH SPST-NO 3A 125V
+0
+2
+2
+switches
+1-0001642
+0.05" Pitch Dip Switch Package
+0.05" Pitch Dip Switch Package
 0
 8
 8

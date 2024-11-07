@@ -533,34 +533,34 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -572,7 +572,7 @@
           "group_by": false,
           "label": "Internal Part Number",
           "name": "Internal Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -584,7 +584,7 @@
           "group_by": false,
           "label": "Populated",
           "name": "Populated",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
