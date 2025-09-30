@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SkyGuard Cutdown Pro")
-		(date "2024-11-07")
-		(rev "2.1.0")
+		(date "2025-09-30")
+		(rev "2.2.0")
 		(company "Leeman Geophysical LLC")
 		(comment 1 "(479) 373-3736")
 		(comment 2 "Gentry, AR 72734")
@@ -3038,7 +3038,79 @@
 			"vQIAAEBMqUO9AgAAKF0HANjXHQAEAAAAAAAAAHDjdkO9AgAAoPbmML0CAABsuAgA2NcdAAEAAAAA"
 			"AAAAoPbmML0CAACwdX1DvQIAAGy4CADY1x0ABAAAAAAAAABQ2nJDvQIAAOA8qUO9AgAAtIgOAHQJ"
 			"HgAEAAAAAAAAADCjckO9AgAAwLnmML0CAAC0iA4AdAkeAAEAAAAAAAAAwLnmML0CAADwf31DvQIA"
-			"AIgdDwB0CQ=="
+			"AIgdDwB0CQAAUMq3ou0BAAAwI+Oi7QEAAMCY6qLtAQAAcLK3ou0BAAAQq7ei7QEAALC9t6LtAQAA"
+			"cCrjou0BAADQD+Oi7QEAANB8t6LtAQAAAI7qou0BAABwKOOi7QEAAPBB0aLtAQAAgJHqou0BAACg"
+			"Ieqi7QEAAJD/4qLtAQAA8Erjou0BAABAmOqi7QEAAACZ6qLtAQAAAFHqou0BAABQO9Gi7QEAAACU"
+			"6qLtAQAAUFfjou0BAABwQtGi7QEAAKCX6qLtAQAAQJLqou0BAABQ4tCi7QEAAJDMt6LtAQAAcCvj"
+			"ou0BAADgJOqi7QEAAFAG46LtAQAAcJO3ou0BAAAw8uKi7QEAABAX46LtAQAAMCHjou0BAADgROqi"
+			"7QEAAJBF0aLtAQAA0F7jou0BAADgTeqi7QEAAFAc46LtAQAA4Jbqou0BAACQ/9Ci7QEAAKCe6qLt"
+			"AQAA4Jjqou0BAACwAeOi7QEAADAy0aLtAQAAUK+3ou0BAACQzrei7QEAAIAV6qLtAQAAEBHjou0B"
+			"AABwNtGi7QEAAICT6qLtAQAAUN7Qou0BAACQNtGi7QEAADBf46LtAQAAwCHqou0BAADwobei7QEA"
+			"ACA86qLtAQAA8JG3ou0BAABQnbei7QEAAGBv6qLtAQAA8OHiou0BAABglOqi7QEAABAj46LtAQAA"
+			"ICfqou0BAADgbOqi7QEAAEBq6qLtAQAAoInqou0BAABQReOi7QEAABDNt6LtAQAAMOfiou0BAACw"
+			"7dCi7QEAAHD74qLtAQAA0Jm3ou0BAABwH9Gi7QEAANA146LtAQAAEOfiou0BAADw+uKi7QEAAPDD"
+			"t6LtAQAAEFLjou0BAABQK9Gi7QEAAJCLt6LtAQAA0Ofiou0BAACQ6OKi7QEAAPBB46LtAQAA4Grq"
+			"ou0BAAAwirei7QEAAKBl6qLtAQAAEOnQou0BAAAgLOqi7QEAALC0t6LtAQAA8C3jou0BAAAwDtGi"
+			"7QEAAAAM6qLtAQAA8Km3ou0BAABQ5NCi7QEAAHAR46LtAQAA0HO3ou0BAAAgY+qi7QEAAJBS46Lt"
+			"AQAAoGPqou0BAADAaeqi7QEAAFAi0aLtAQAAsHy3ou0BAABQ5uKi7QEAAJAf46LtAQAA0HS3ou0B"
+			"AACQIeOi7QEAADAw46LtAQAAoGnqou0BAACwWuOi7QEAAIAK6qLtAQAAADrqou0BAADQKeOi7QEA"
+			"ANAY0aLtAQAAMHW3ou0BAACw2dCi7QEAAKB86qLtAQAAkBHRou0BAACQJOOi7QEAAHB3t6LtAQAA"
+			"4Dfqou0BAABwHdGi7QEAANDc0KLtAQAAEFDjou0BAAAgoOqi7QEAAFDFt6LtAQAAQFDqou0BAABQ"
+			"LNGi7QEAALAXotXzAQAAAwAAAAAAAACgPZrV8wEAAAEAAAAAAAAAAAAAAAAAAAAIxzP7AM4AgOAd"
+			"otXzAQAAhg8Aif87rAAQEKjV8wEAAHBwYcHzAQAAAAAAAAAAAAAPxzb7AM8AgPAZotXzAQAAAwAA"
+			"AAAAAACwWIXV8wEAAAEAAAAAAAAAAAAAAAAAAADyxzX7ANAAgDAZotXzAQAAAwAAAAAAAABgOprV"
+			"8wEAAAEAAAAAAAAAAAAAAAAAAADxx8j7ANEAgAAAAAAAAAAAAwAAAAAAAADAFqLV8wEAAAEAAAAA"
+			"AAAAAAAAAAAAAAD0x8/7ANIAgEAbotXzAQAAAwAAAAAAAABQOZrV8wEAAAEAAAAAAAAAAAAAAAAA"
+			"AAD7x8L7ANMAgNAYotXzAQAAAwAAAAAAAADQV4XV8wEAAAEAAAAAAAAAAAAAAAAAAAD+x8H7ANQA"
+			"gMAcotXzAQAAAwAAAAAAAACQVoXV8wEAAAEAAAAAAAAAAAAAAAAAAAD9x8T7ANUAgAAAAAAAAAAA"
+			"AwAAAAAAAABwV4XV8wEAAAEAAAAAAAAAAAAAAAAAAADgx9v7ANYAgAAWotXzAQAAAwAAAAAAAACw"
+			"OZrV8wEAAAEAAAAAAAAAAAAAAAAAAADnx977ANcAgAAAAAAAAAAAAwAAAAAAAAAwFqLV8wEAAAEA"
+			"AAAAAAAAAAAAAAAAAADqx937ANgAgBAYotXzAQAAAwAAAAAAAABQO5rV8wEAAAEAAAAAAAAAAAAA"
+			"AAAAAADpx9D7ANkAgOAXotXzAQAAAwAAAAAAAAAwOZrV8wEAAAEAAAAAAAAAAAAAAAAAAADsx9f7"
+			"ANoAgLAaotXzAQAAAwAAAAAAAACgPJrV8wEAAAEAAAAAAAAAAAAAAAAAAADTx+r7ANsAgOAaotXz"
+			"AQAAAwAAAAAAAADAOZrV8wEAAAEAAAAAAAAAAAAAAAAAAADWx+n7ANwAgIAaotXzAQAAAwAAAAAA"
+			"AADQOZrV8wEAAAEAAAAAAAAAAAAAAAAAAADVx+z7AN0AgJAWotXzAQAAAwAAAAAAAABgO5rV8wEA"
+			"AAEAAAAAAAAAAAAAAAAAAADYx+P7AN4AgNAVotXzAQAAAwAAAAAAAABwWIXV8wEAAAEAAAAAAAAA"
+			"AAAAAAAAAADfx+b7AN8AgFAaotXzAQAAAwAAAAAAAACQVIXV8wEAAAEAAAAAAAAAAAAAAAAAAADC"
+			"x+X7AOAAgAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAADBx/j7AOEAgHAb"
+			"otXzAQAAAwAAAAAAAADgO5rV8wEAAAEAAAAAAAAAAAAAAAAAAADEx//7AOIAgKAYotXzAQAAAwAA"
+			"AAAAAACQWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAEFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQQ=="
 		)
 	)
 	(symbol
@@ -3146,7 +3218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04ea5a0e-a054-4b45-88c0-cff5d0f5e3a4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -3196,7 +3268,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3212,7 +3284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "244175c8-78f1-4f34-a90b-6569caef5608")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 123.19 64.77 0)
 			(effects
 				(font
@@ -3262,7 +3334,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3479,7 +3551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ee04dd6-790d-4f71-b267-55dc7c22195d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 152.4 95.25 0)
 			(effects
 				(font
@@ -3529,7 +3601,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45c18dcd-259f-4a52-b6d7-ca681e305602")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -3595,7 +3667,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "524c6ad0-438e-4cce-b2c7-2ef4c987a640")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 107.315 133.35 90)
 			(effects
 				(font
@@ -3691,7 +3763,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57f1ada3-bbd9-476c-81c0-bcb6bda53097")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -3757,7 +3829,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dc143fd-7e09-4881-972d-7cc8f60e1dd6")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -3946,7 +4018,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7511e1b0-6bc5-4dc3-a141-37f882ecb149")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 172.72 132.08 0)
 			(effects
 				(font
@@ -4109,7 +4181,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8babf94b-bbc0-498d-a4cc-bc20c9065b57")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 156.21 77.47 0)
 			(effects
 				(font
@@ -4272,7 +4344,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93ddbfa4-203f-44ae-918d-aed5ab13c9d2")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -4338,7 +4410,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a66d72ba-5c99-4ae0-8447-abf719baba5a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -4504,7 +4576,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4617,7 +4689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1e2d01b-a90f-4551-957a-f728ddcb4880")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 152.4 105.41 0)
 			(effects
 				(font
@@ -4667,7 +4739,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b607b9d5-ed41-44c3-af36-fa890aae6a75")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 154.305 68.58 90)
 			(effects
 				(font
@@ -4763,7 +4835,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c55c48a3-65f6-407f-b0b3-998d335752aa")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -4829,7 +4901,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c92c64ad-169d-4304-87da-323603939829")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 139.7 142.24 0)
 			(effects
 				(font
@@ -4963,7 +5035,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5074,7 +5146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8112d63-c9a8-41ea-8ad4-36485cd9722b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 109.22 124.46 0)
 			(effects
 				(font
@@ -5124,7 +5196,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5139,7 +5211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d93a4cf0-0a12-4bb2-9608-67389f7979d4")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 118.11 53.34 0)
 			(effects
 				(font
@@ -5218,7 +5290,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5594,7 +5666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe1c74d2-79fa-443e-ad45-fef17f90502d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 5.08 19.05 0)
 			(effects
 				(font
@@ -5644,7 +5716,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff394743-9aff-499d-97c7-84d8890ee0b4")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -5710,7 +5782,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238/14dc79cf-03b1-4356-bd69-4f0cd3714637"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
