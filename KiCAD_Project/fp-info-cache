@@ -1,4 +1,4 @@
-26603790943343189
+26605553559089329
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107015,6 +107015,13 @@ Custom Switch Footprint
 0
 6
 6
+switches
+1-0001786
+14HTSSOP
+14HTSSOP
+0
+14
+14
 test_points
 1-0000135
 Terminal Turret Connector Single End, Hollow 0.156" (3.96mm) Tin

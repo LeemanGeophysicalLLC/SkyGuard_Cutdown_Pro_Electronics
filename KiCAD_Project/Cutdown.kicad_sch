@@ -389,6 +389,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "1-0001787_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 4.826 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1-0001787"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "transistors:1-0001787"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar (BJT) Transistor Array 2 NPN (Dual) 40V 200mA 300MHz 150mW Surface Mount SC-88/SC70-6/SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Internal Part Number" "1-0001787"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Populated" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PValue" "MBT3904"
+				(at 4.826 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "TRANS 2NPN 40V 200MA SC88/SC70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1-0001787_1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "1-0001787_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1-0001787_1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -2694,8 +2959,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -13.335 3.81 0)
+			(property "Reference" "J7"
+				(at -10.16 5.588 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2757,7 +3022,7 @@
 				)
 			)
 			(property "PValue" "Mini B"
-				(at 0 0 0)
+				(at -10.16 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8572,8 +8837,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 4.826 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8637,11 +8902,12 @@
 				)
 			)
 			(property "PValue" "MBT3904"
-				(at 0 0 0)
+				(at 4.826 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "ki_keywords" "TRANS 2NPN 40V 200MA SC88/SC70"
@@ -10872,7 +11138,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAA=="
+			"AAAAAAAAADEAMAByAHAALAAwACwAMQAwAHIAcAAsADUAcgBwACkAKQAiAA0ADQAKAC8APgANAA0A"
+			"CgA8AC8AaQBmAD4ADQANAAoAPABpAGYAIABpAGQAPQAiAGEAdABvAG0AKABFAHgAcABhAG4AZABl"
+			"AGQARgBvAG8AdABlAHIAVABlAHgAdAApACIAPgANAA0ACgA8AGUAbABlAG0AZQBuAHQADQANAAoA"
+			"ZgBvAG4AdAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAGcAdABmACgAVABh"
+			"AHMAawBEAGkAYQBsAG8AZwBTAHQAeQBsAGUALAAgADEAOAAsACAAMAApACIADQANAAoAZgBvAHIA"
+			"ZQBnAHIAbwB1AG4AZAAgACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAGcAdABjACgAVABhAHMAawBE"
+			"AGkAYQBsAG8AZwBTAHQAeQBsAGUALAAgADEAOAAsACAAMAAsACAAMwA4ADAAMwApACIADQANAAoA"
+			"YQBjAGMAZQBzAHMAaQBiAGwAZQAgACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAHQAcgB1AGUAIgAN"
+			"AA0ACgBhAGMAYwByAG8AbABlACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAcwB0AGEA"
+			"dABpAGMAdABlAHgAdAAiAA0ADQAKAC8APgANAA0ACgA8AC8AaQBmAD4ADQANAAoAPABpAGYAIABp"
+			"AGQAPQAiAGEAdABvAG0AKABFAHgAcABhAG4AZABlAGQARgBvAG8AdABlAHIAVABlAHgAdABMAGkA"
+			"bgBrACkAIgA+AA0ADQAKADwAYwBjAHMAeQBzAGwAaQBuAGsADQANAAoAZgBvAG4AdAAgACAAIAAg"
+			"ACAAIAAgACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAGcAdABmACgAVABhAHMAawBEAGkAYQBsAG8A"
+			"ZwBTAHQAeQBsAGUALAAgADEAOAAsACAAMAApACIADQANAAoAZgBvAHIAZQBnAHIAbwB1AG4AZAAg"
+			"ACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAGcAdABjACgAVABhAHMAawBEAGkAYQBsAG8AZwBTAHQA"
+			"eQBsAGUALAAgADEAOAAsACAAMAAsACAAMwA4ADAAMwApACIADQANAAoALwA+AA0ADQAKADwALwBp"
+			"AGYAPgANAA0ACgA8AC8AcwB0AHkAbABlAD4ADQANAAoAPAAvAHMAdAB5AGwAZQBzAGgAZQBlAHQA"
+			"cwA+AA0ADQAKADwALwBkAHUAaQB4AG0AbAA+AA0ADQAKAAAAZglrrNoBinVnCSch2gFU7WcJGxLa"
+			"ATPMaQkbEg=="
 		)
 	)
 	(global_label "GPS_PPS"
@@ -15527,6 +15811,7 @@
 		)
 	)
 	(symbol
+		(lib_name "1-0001787_1")
 		(lib_id "transistors:1-0001787")
 		(at 175.26 123.19 0)
 		(unit 1)
@@ -19323,7 +19608,7 @@
 			)
 		)
 		(property "PValue" "MBT3904"
-			(at 179.578 136.906 0)
+			(at 179.578 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
