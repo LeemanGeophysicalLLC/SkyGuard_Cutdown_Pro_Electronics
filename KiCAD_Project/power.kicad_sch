@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SkyGuard Cutdown Pro")
-		(date "2025-09-30")
-		(rev "2.2.0")
+		(date "2025-12-16")
+		(rev "2.3.0")
 		(company "Leeman Geophysical LLC")
 		(comment 1 "(479) 373-3736")
 		(comment 2 "Gentry, AR 72734")
