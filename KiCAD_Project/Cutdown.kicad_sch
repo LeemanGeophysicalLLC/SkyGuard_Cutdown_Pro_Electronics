@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SkyGuard Cutdown Pro")
-		(date "2025-09-30")
-		(rev "2.2.0")
+		(date "2025-12-16")
+		(rev "2.3.0")
 		(company "Leeman Geophysical LLC")
 		(comment 1 "(479) 373-3736")
 		(comment 2 "Gentry, AR 72734")
@@ -9095,14 +9095,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SDO Grounded for default address"
+	(text "Address 0x76"
 		(exclude_from_sim no)
-		(at 67.31 90.805 0)
+		(at 84.074 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "1daf750b-7db6-40a8-a6cd-3465e6620b13")
 	)
@@ -9116,15 +9116,16 @@
 		)
 		(uuid "48760c93-8f14-489c-95e5-75c2d5d48342")
 	)
-	(text "Programming\nControls"
+	(text "Address 0x42"
 		(exclude_from_sim no)
-		(at 15.748 78.74 90)
+		(at 140.97 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
-		(uuid "6a0dab61-8d84-457e-b964-f5a2a09efdca")
+		(uuid "4ca51581-ece4-46fd-8e1e-1a2c04fc2015")
 	)
 	(text "Servo Release"
 		(exclude_from_sim no)
@@ -9203,12 +9204,6 @@
 		(uuid "2e94bb9c-2011-480f-b457-aff5dea6a2ca")
 	)
 	(junction
-		(at 238.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "329cbbee-2183-4597-8d15-b44ecf3dc23a")
-	)
-	(junction
 		(at 80.01 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9267,12 +9262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d29316-9a27-4c4d-8e31-da4e65b01b77")
-	)
-	(junction
-		(at 238.76 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e769624-87cd-4fc1-9b6f-88816e64f726")
 	)
 	(junction
 		(at 237.49 109.22)
@@ -9353,12 +9342,6 @@
 		(uuid "c13345b8-6221-48bd-8266-d0fbf7496bc8")
 	)
 	(junction
-		(at 238.76 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5d69a1a-e5f7-40b4-ae14-eaedaa6a6e84")
-	)
-	(junction
 		(at 82.55 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9411,12 +9394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b09767-6df1-4c4d-b240-42965e53b505")
-	)
-	(junction
-		(at 238.76 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faa79514-519b-40d5-8b01-990206d3872a")
 	)
 	(no_connect
 		(at 128.27 53.34)
@@ -9544,16 +9521,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 92.71) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0674bf3a-0050-4ad2-b677-6006c75ab2f9")
-	)
-	(wire
-		(pts
 			(xy 120.65 139.7) (xy 123.19 139.7)
 		)
 		(stroke
@@ -9571,16 +9538,6 @@
 			(type default)
 		)
 		(uuid "083e8932-9adf-44c8-93f3-d2c2f447f41a")
-	)
-	(wire
-		(pts
-			(xy 233.68 62.23) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a8353ae-3f6f-42f1-9c7f-de8c518ebc02")
 	)
 	(wire
 		(pts
@@ -9611,16 +9568,6 @@
 			(type default)
 		)
 		(uuid "0e24dd04-bbe3-44d0-9bcc-bf229552c79e")
-	)
-	(wire
-		(pts
-			(xy 238.76 66.04) (xy 238.76 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "132ef114-138b-4627-b59d-0c61612e3a12")
 	)
 	(wire
 		(pts
@@ -9894,26 +9841,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c473d7c-c213-434f-8ba6-12bf09d16e13")
-	)
-	(wire
-		(pts
-			(xy 238.76 62.23) (xy 233.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d98323b-2c16-445b-b9b1-55b413d460ad")
-	)
-	(wire
-		(pts
 			(xy 193.04 157.48) (xy 196.85 157.48)
 		)
 		(stroke
@@ -9984,16 +9911,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 81.28) (xy 238.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ad414f-a657-42ce-b1b3-667a8ae394ee")
-	)
-	(wire
-		(pts
 			(xy 191.77 38.1) (xy 193.04 38.1)
 		)
 		(stroke
@@ -10001,16 +9918,6 @@
 			(type default)
 		)
 		(uuid "59ccf7b3-7b5b-4286-8af9-bef10530dd68")
-	)
-	(wire
-		(pts
-			(xy 233.68 67.31) (xy 233.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc00e5d-6ad9-4ce1-abf9-209bb0a10f6b")
 	)
 	(wire
 		(pts
@@ -10031,16 +9938,6 @@
 			(type default)
 		)
 		(uuid "63b5b10f-d75b-4c53-8fca-34633d882592")
-	)
-	(wire
-		(pts
-			(xy 238.76 93.98) (xy 238.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d86d5b-602e-459e-ac86-fc88a98d8500")
 	)
 	(wire
 		(pts
@@ -10104,16 +10001,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 238.76 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71eeda4c-e195-47ab-9bf9-9d03f7d4a3b2")
-	)
-	(wire
-		(pts
 			(xy 87.63 101.6) (xy 87.63 104.14)
 		)
 		(stroke
@@ -10121,16 +10008,6 @@
 			(type default)
 		)
 		(uuid "72fd97a7-ae96-4d8b-a04a-366d16b652b8")
-	)
-	(wire
-		(pts
-			(xy 238.76 67.31) (xy 238.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758f132b-4f6c-4b23-83f7-8b48f18faeae")
 	)
 	(wire
 		(pts
@@ -10164,16 +10041,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 60.96) (xy 238.76 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77743475-f464-4723-b7ce-35ecc8153b6f")
-	)
-	(wire
-		(pts
 			(xy 140.97 43.18) (xy 140.97 38.1)
 		)
 		(stroke
@@ -10191,26 +10058,6 @@
 			(type default)
 		)
 		(uuid "7fea4093-81d3-4fe0-ab02-bc7cb2b48b1c")
-	)
-	(wire
-		(pts
-			(xy 223.52 66.04) (xy 233.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f66ce9-ae12-430a-b07e-9f3ec83ecc1c")
-	)
-	(wire
-		(pts
-			(xy 238.76 67.31) (xy 233.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8341f5e8-12c0-4fb8-b24b-3f2074b2108b")
 	)
 	(wire
 		(pts
@@ -10634,26 +10481,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 62.23) (xy 238.76 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1db6711-675b-40f3-a619-d8b7b4017049")
-	)
-	(wire
-		(pts
-			(xy 223.52 63.5) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30b58e1-7466-4c7f-8d12-245110f80ab1")
-	)
-	(wire
-		(pts
 			(xy 120.65 144.78) (xy 123.19 144.78)
 		)
 		(stroke
@@ -10671,16 +10498,6 @@
 			(type default)
 		)
 		(uuid "d5db5721-8d43-44fa-b69e-60ee89f7a5ef")
-	)
-	(wire
-		(pts
-			(xy 238.76 80.01) (xy 238.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf89646-0cb6-41a0-adbd-63cd385115cb")
 	)
 	(wire
 		(pts
@@ -11199,28 +11016,6 @@
 			)
 		)
 	)
-	(global_label "3v3_Sat_TX"
-		(shape passive)
-		(at 246.38 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0993b5e0-e57c-4305-bd4b-900a4c4b8df0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.837 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Sat_NetAv"
 		(shape passive)
 		(at 193.04 157.48 180)
@@ -11331,28 +11126,6 @@
 			)
 		)
 	)
-	(global_label "Program_CTRL"
-		(shape passive)
-		(at 24.13 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "261454f3-093a-47d6-a760-5af3991156cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4899 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Servo"
 		(shape passive)
 		(at 24.13 59.69 0)
@@ -11377,7 +11150,7 @@
 	)
 	(global_label "GPS_RX"
 		(shape passive)
-		(at 246.38 63.5 0)
+		(at 223.52 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11387,7 +11160,7 @@
 		)
 		(uuid "2ebd6fbb-2a8e-4fc8-a03c-0df263a4748b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.9898 63.4206 0)
+			(at 233.1298 63.4206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +11172,7 @@
 	)
 	(global_label "3v3_Sat_Rx"
 		(shape passive)
-		(at 246.38 80.01 0)
+		(at 223.52 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11409,7 +11182,7 @@
 		)
 		(uuid "2ee886d6-b726-4352-b888-8a96abfeaa75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.958 80.01 0)
+			(at 236.098 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11216,7 @@
 	)
 	(global_label "GPS_TX"
 		(shape passive)
-		(at 246.38 68.58 0)
+		(at 223.52 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11453,7 +11226,7 @@
 		)
 		(uuid "2f986d84-a587-4d84-b07a-8cc65f97b6bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6874 68.5006 0)
+			(at 232.8274 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,50 +11278,6 @@
 			)
 		)
 	)
-	(global_label "GPS_RX"
-		(shape passive)
-		(at 246.38 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37eeb09b-1651-4486-aa07-00758861cfde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.9898 65.9606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3v3_Sat_Rx"
-		(shape passive)
-		(at 246.38 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ddfbe63-70f7-4176-bb95-d205624c118e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.958 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape passive)
 		(at 153.67 60.96 0)
@@ -11573,7 +11302,7 @@
 	)
 	(global_label "Serial_TX"
 		(shape passive)
-		(at 114.3 115.57 0)
+		(at 114.3 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11583,7 +11312,7 @@
 		)
 		(uuid "4f21a0f3-4ae9-46cc-9294-595bdcd12485")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8219 115.57 0)
+			(at 124.8219 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +11346,7 @@
 	)
 	(global_label "Serial_RX"
 		(shape passive)
-		(at 114.3 118.11 0)
+		(at 114.3 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11627,7 +11356,7 @@
 		)
 		(uuid "50d9dd5c-c14c-4852-9a81-b86f1d3a7098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.1243 118.11 0)
+			(at 125.1243 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11811,7 +11540,7 @@
 	)
 	(global_label "3v3_Sat_TX"
 		(shape passive)
-		(at 246.38 92.71 0)
+		(at 223.52 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11821,29 +11550,7 @@
 		)
 		(uuid "7224da4e-c523-498f-9307-22dd729a8f37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.837 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset_CTRL"
-		(shape passive)
-		(at 24.13 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "749cf1a9-6285-4fb2-8cf4-fd48078acdb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7082 78.74 0)
+			(at 235.977 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,28 +11920,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_TX"
-		(shape passive)
-		(at 246.38 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a113f220-a4b7-46ef-b223-2fe9be9b3c3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6874 60.8806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12693,7 +12378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f58fc5f-7eeb-48ee-89ed-05c430a42253")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 237.49 132.08 0)
 			(effects
 				(font
@@ -12743,7 +12428,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12951,100 +12636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c0ffff5-985a-47c3-aa74-5ac26defa593")
-		(property "Reference" "R26"
-			(at 236.474 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "1"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "0R0"
-			(at 242.57 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa5a6a5c-2971-4021-b618-42fd2f636a19")
-		)
-		(pin "1"
-			(uuid "0ee2672b-79bd-46c3-9d36-f07910d600dd")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 104.14 0)
 		(unit 1)
@@ -13053,7 +12644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fc07360-7dc0-4eb0-af11-b822b5a4718d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 74.93 110.49 0)
 			(effects
 				(font
@@ -13103,7 +12694,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13230,7 +12821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21be2b0a-07b9-4ccf-8d69-f4c30eb699d7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 208.28 110.49 0)
 			(effects
 				(font
@@ -13280,7 +12871,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13296,7 +12887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ad903a-b446-4479-80ef-dfea899496dd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 78.74 191.77 0)
 			(effects
 				(font
@@ -13346,7 +12937,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13414,100 +13005,6 @@
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27016510-fb49-4d6f-8e29-f7ed1c6b819b")
-		(property "Reference" "R32"
-			(at 236.474 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "1"
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "0R0"
-			(at 242.57 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1979564f-9d65-4829-83e8-12235aacd1f9")
-		)
-		(pin "1"
-			(uuid "a171e771-09f4-41df-85bf-18fb1dba8c75")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13766,7 +13263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa76087-cabd-463d-8882-0f345bb2cc63")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 250.19 113.03 0)
 			(effects
 				(font
@@ -13816,101 +13313,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b76b878-b6f6-47d0-8d6e-72f29af62a26")
-		(property "Reference" "R31"
-			(at 236.474 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 242.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP"
-			(at 242.57 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b0cc514c-69af-4185-afc7-72cc2b897310")
-		)
-		(pin "1"
-			(uuid "ca72a00e-5cd4-454e-a0a6-743d10bb3ae0")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R31")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13926,7 +13329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bdfe406-83ad-4d51-a877-837e410e1509")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 74.93 29.21 0)
 			(effects
 				(font
@@ -13976,101 +13379,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d7006ea-bfa0-4705-899f-0aca0b3e091c")
-		(property "Reference" "R25"
-			(at 236.474 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP"
-			(at 242.57 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "719f6bc0-fd39-4c49-ba7c-4bc7bdf81af9")
-		)
-		(pin "1"
-			(uuid "1e986902-f5c3-4809-b7b4-5782c170bae2")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R25")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14469,7 +13778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "336f4024-2277-4bd5-ad40-f64e7b3b46be")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 38.1 193.04 0)
 			(effects
 				(font
@@ -14519,7 +13828,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14534,7 +13843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e32fc8-0b5b-4efd-8bd6-49f80c3d35b1")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 29.21 115.062 0)
 			(effects
 				(font
@@ -14631,7 +13940,7 @@
 		(instances
 			(project ""
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14647,7 +13956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3583aa55-e0fd-4ba4-b57f-a47b192200e2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -14697,7 +14006,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15087,7 +14396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "406db031-3979-40e0-91eb-0627cc49574e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 140.97 35.56 0)
 			(effects
 				(font
@@ -15137,7 +14446,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15248,7 +14557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45b0d05a-5391-4167-82f2-fe4625f4d6ee")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 142.24 193.04 0)
 			(effects
 				(font
@@ -15298,7 +14607,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15410,7 +14719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "481f3c21-029e-4773-96d1-86f9599354c3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -15460,7 +14769,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15476,7 +14785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a14741a-c81a-4851-acce-9943efabd191")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 142.24 200.66 0)
 			(effects
 				(font
@@ -15526,7 +14835,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15542,7 +14851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c218880-896e-4693-9b83-9d82eea73136")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 83.82 22.86 0)
 			(effects
 				(font
@@ -15592,7 +14901,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15608,7 +14917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e928b24-f8b8-464e-aa84-beb3c01bafe1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 83.82 45.72 0)
 			(effects
 				(font
@@ -15658,7 +14967,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15947,7 +15256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "533f3a28-a754-4437-8dcb-398347b6ce6a")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 31.75 180.34 0)
 			(effects
 				(font
@@ -16026,7 +15335,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16137,7 +15446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57edcb95-28a7-42e8-83fc-9db59f47ee6b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -16187,7 +15496,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16300,7 +15609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bca628e-b5d2-4342-a308-3205ebf584aa")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 215.9 36.83 0)
 			(effects
 				(font
@@ -16350,7 +15659,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16453,199 +15762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d83b1c8-cd9e-44ad-96a4-8cf44163702c")
-		(property "Reference" "R27"
-			(at 236.474 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP"
-			(at 242.57 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "337dc2e3-2eaf-4192-b1bd-0a8a6235fd2d")
-		)
-		(pin "1"
-			(uuid "dff02869-1bef-4d2f-a1e0-e3615bb728bf")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "np_connectors:NP_Conn_01x03")
-		(at 19.05 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6128afe9-7570-455b-9f9e-55453738c7c8")
-		(property "Reference" "J4"
-			(at 19.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NP_Conn_01x03"
-			(at 19.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "np_connectors:PinHeader_1x03_P2.54mm_Vertical"
-			(at 19.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 19.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "0-0000000"
-			(at 19.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 19.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP_Conn_01x03"
-			(at 16.51 77.4701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbe2835c-2b94-49f8-a99a-8628363c3a51")
-		)
-		(pin "2"
-			(uuid "ef4c3a2e-2c6e-4115-8ffe-16d9bfe0de57")
-		)
-		(pin "3"
-			(uuid "94856447-40f7-47e8-8b08-772981eb7230")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
 		(at 5.08 22.86 0)
@@ -16723,7 +15839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a11bfa2-f1c3-449b-babd-10f7956fb978")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -16773,7 +15889,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17530,7 +16646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75d64dc0-c817-409e-b9c0-c325240cacf6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -17580,7 +16696,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17778,7 +16894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dab7b9b-6dd8-4660-b997-fa9080fa9f0f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 83.82 172.72 0)
 			(effects
 				(font
@@ -17828,7 +16944,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17844,7 +16960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82671118-9ef2-4d00-813e-5b74e37f465b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -17894,7 +17010,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17909,7 +17025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "830f0c0a-f1aa-4c6f-a903-c4770a6039e4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 185.42 34.29 0)
 			(effects
 				(font
@@ -17959,7 +17075,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18064,7 +17180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85afb3c3-a272-43c5-ab4b-50e12c6deedd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 39.37 137.16 0)
 			(effects
 				(font
@@ -18114,7 +17230,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18223,7 +17339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b094020-09f1-4661-a4a2-ed815a2e3bca")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 123.19 143.51 0)
 			(effects
 				(font
@@ -18273,7 +17389,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18289,7 +17405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e2aa24f-2beb-4cb1-ae48-0ad9d1a7226a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 39.37 148.59 0)
 			(effects
 				(font
@@ -18339,7 +17455,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18354,7 +17470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff12780-2855-4c63-8ef1-04ee2898e9b2")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 118.11 196.596 0)
 			(effects
 				(font
@@ -18458,7 +17574,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -18474,7 +17590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "911ab37c-5539-4496-8dec-75df948fe934")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -18524,101 +17640,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91cf748a-aab7-443b-bb86-341521a438b5")
-		(property "Reference" "R28"
-			(at 236.474 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "1"
-			(at 242.57 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "0R0"
-			(at 242.57 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aae90cca-0036-498a-8962-993480ff1e46")
-		)
-		(pin "1"
-			(uuid "f22224f3-21db-47df-a234-bcb1aed2d474")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R28")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18634,7 +17656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "934cf72f-d45e-4127-a603-3816f773ec7b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 33.02 71.12 0)
 			(effects
 				(font
@@ -18684,7 +17706,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18699,7 +17721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95c5409b-8140-477b-b784-a20b2a4387e3")
-		(property "Reference" "R33"
+		(property "Reference" "R25"
 			(at 252.222 113.03 90)
 			(effects
 				(font
@@ -18778,7 +17800,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R33")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -19079,7 +18101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b925025-16bf-4eeb-8667-beec82a988a4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 33.02 53.34 0)
 			(effects
 				(font
@@ -19129,7 +18151,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -19239,7 +18261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e166265-c8ee-4c72-9591-19ff410e3d06")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 58.42 118.11 0)
 			(effects
 				(font
@@ -19289,7 +18311,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19395,7 +18417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2e46194-674b-4750-85a9-b4773742850a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 204.47 160.02 0)
 			(effects
 				(font
@@ -19445,7 +18467,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -19670,7 +18692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aced705e-f98e-4def-94d4-27f79508602b")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -19749,7 +18771,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19844,100 +18866,6 @@
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afcb4e90-b9ad-4ee4-8c26-0f39d1f5baa2")
-		(property "Reference" "R30"
-			(at 236.474 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "1"
-			(at 242.57 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "0R0"
-			(at 242.57 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "63d369c2-8e16-4a5b-b425-fbc5f95b9bf3")
-		)
-		(pin "1"
-			(uuid "590e4f2b-d271-4643-8410-3d5e5c4fa242")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20208,7 +19136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2d6dd35-4210-4f2f-a3c9-1ce595bf1768")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -20258,7 +19186,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20371,7 +19299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7899159-0ff2-47c8-94f9-f85e5255c14a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 50.8 140.97 0)
 			(effects
 				(font
@@ -20421,7 +19349,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -20436,7 +19364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb11933b-c556-41fe-93af-57fdb8b85b84")
-		(property "Reference" "R34"
+		(property "Reference" "R26"
 			(at 252.222 132.08 90)
 			(effects
 				(font
@@ -20515,7 +19443,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R34")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -20725,7 +19653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be5eca33-ee8e-4034-a9d8-f678b2bd4217")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 250.19 132.08 0)
 			(effects
 				(font
@@ -20775,7 +19703,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -20791,7 +19719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be919729-9058-40fe-abea-c73a079ea4df")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -20841,7 +19769,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20856,7 +19784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0aeaa5d-0676-4ec9-80be-8c00bf2a2eec")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 35.56 25.4 0)
 			(effects
 				(font
@@ -20906,7 +19834,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21118,7 +20046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c59c6fec-7eac-48aa-83bc-36d1637c17d3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 33.02 48.26 0)
 			(effects
 				(font
@@ -21168,7 +20096,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -21184,7 +20112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c70c0f16-cfcf-476a-bead-56191b63047c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -21234,7 +20162,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -21638,72 +20566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d01d3ad4-2735-4fbd-a4a2-d53053d8dd9e")
-		(property "Reference" "#PWR03"
-			(at 24.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e61ca8e-3c1c-4f65-84d6-eff13e03bb21")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistors_0603:1-0000009")
 		(at 35.56 138.43 90)
 		(unit 1)
@@ -21792,100 +20654,6 @@
 			(project ""
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistors_0603:1-0000006")
-		(at 242.57 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d597320d-9413-4dbd-b8e9-78c5bfcb0cb1")
-		(property "Reference" "R29"
-			(at 236.474 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-0000006"
-			(at 242.57 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "resistors_0603:1-0000006"
-			(at 242.57 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm Resistor 0603"
-			(at 242.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Internal Part Number" "1-0000006"
-			(at 242.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Populated" "0"
-			(at 242.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PValue" "NP"
-			(at 242.57 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d8f117c4-bcec-4b03-b740-8e959ffd2b6a")
-		)
-		(pin "1"
-			(uuid "35c29121-3da3-4dfb-a695-bd632a49b2e9")
-		)
-		(instances
-			(project "Cutdown"
-				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -21997,7 +20765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9080d7a-1d84-45d4-85db-53123bdedcba")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 85.09 160.02 0)
 			(effects
 				(font
@@ -22047,7 +20815,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22357,7 +21125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Internal Part Number" "3-0000285"
+		(property "Internal Part Number" "3-0000290"
 			(at 165.1 168.91 0)
 			(effects
 				(font
@@ -22496,7 +21264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2f6288a-7c66-4000-8917-38cc2b59b72e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 237.49 113.03 0)
 			(effects
 				(font
@@ -22546,7 +21314,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -22750,7 +21518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef687fb1-a8e8-4c39-97f2-a9bdae0d5155")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 208.28 26.67 0)
 			(effects
 				(font
@@ -22800,7 +21568,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23005,7 +21773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6dabbb3-7460-4905-8a0c-2be144742d89")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -23055,7 +21823,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -23164,7 +21932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbf5c5b0-52a0-40e0-a9c2-bcb62d16a530")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -23214,7 +21982,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -23230,7 +21998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe10e38c-9949-4082-b3bf-435da7fffc2b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 55.88 191.77 0)
 			(effects
 				(font
@@ -23280,7 +22048,7 @@
 		(instances
 			(project "Cutdown"
 				(path "/8a527631-9f08-4346-91a8-17ddc9930238"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
